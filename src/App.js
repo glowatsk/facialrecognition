@@ -10,8 +10,7 @@ import Rank from './components/Rank/Rank.js';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition.js';
 import 'tachyons';
 import './App.css';
-
-const app = new Clarifai.App({apiKey: 'a702ca3d77674960a0c7ff3e6bf97212'});
+import app from './API.js';
 
 const particlesOptions = {
   particles: {
